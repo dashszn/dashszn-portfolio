@@ -1,17 +1,55 @@
 ---
-import "../styles/global.css";
+import Container from '../components/common/Container.astro';
+import SectionHeader from '../components/common/SectionHeader.astro';
+import Badge from '../components/common/Badge.astro';
+import Button from '../components/ui/Button.astro';
+import Card from '../components/ui/Card.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <section id="home" class="py-24 sm:py-32">
+    <Container>
+      <div class="max-w-3xl">
+        <Badge label="Dashszn.dev · V1 Foundation" />
+
+        <h1 class="mt-8 text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          Danish Syazani
+        </h1>
+
+        <p class="mt-6 text-xl leading-9 text-slate-300">
+          Software Engineering Graduate · Full-Stack Developer in Progress · Creative
+          Technologist
+        </p>
+
+        <p class="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
+          Building meaningful digital systems with full-stack development, AI curiosity,
+          and creative technology.
+        </p>
+
+        <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+          <Button href="#about">View My Background</Button>
+          <Button href="#contact" variant="secondary">Contact Me</Button>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section id="about" class="py-20">
+    <Container>
+      <SectionHeader
+        eyebrow="Sprint 2"
+        title="Layout foundation is ready."
+        description="This page is currently testing the reusable layout, navigation, footer, cards, buttons, badges, and global styling before the full v1 content sections are built."
+      />
+
+      <Card>
+        <p class="leading-8 text-slate-300">
+          The next sprint will replace this temporary content with the complete Dashszn.dev
+          v1 homepage sections: About, Skills, Experience, Education, Direction, Projects
+          & Lab, and Contact.
+        </p>
+      </Card>
+    </Container>
+  </section>
+</BaseLayout>

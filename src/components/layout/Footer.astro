@@ -1,0 +1,19 @@
+---
+import Container from '../common/Container.astro';
+import { siteConfig } from '../../utils/site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-white/10 py-8">
+  <Container class="flex flex-col gap-4 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+    <p>© {year} {siteConfig.owner}. Built as Dashszn.dev.</p>
+
+    <div class="flex gap-4">
+      <a href={siteConfig.github} target="_blank" rel="noreferrer" class="hover:text-white">
+        GitHub
+      </a>
+      <a href="#contact" class="hover:text-white">Contact</a>
+    </div>
+  </Container>
+</footer>
