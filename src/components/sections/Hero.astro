@@ -1,0 +1,54 @@
+---
+import Container from '../common/Container.astro';
+import Badge from '../common/Badge.astro';
+import Button from '../ui/Button.astro';
+import { profile } from '../../data/profile';
+---
+
+<section id="home" class="relative overflow-hidden py-24 sm:py-32">
+  <Container>
+    <div class="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div>
+        <Badge label="Dashszn.dev · Personal Website" />
+
+        <h1 class="mt-8 text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+          {profile.name}
+        </h1>
+
+        <p class="mt-6 max-w-3xl text-xl leading-9 text-slate-300">
+          {profile.headline}
+        </p>
+
+        <p class="mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg">
+          {profile.tagline}
+        </p>
+
+        <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+          <Button href="#about">View My Background</Button>
+          <Button href="#contact" variant="secondary">Contact Me</Button>
+        </div>
+      </div>
+
+      <div class="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 shadow-2xl shadow-sky-950/30 backdrop-blur">
+        <p class="text-sm uppercase tracking-[0.3em] text-sky-300/80">Current Focus</p>
+
+        <div class="mt-6 space-y-4">
+          <div class="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
+            <p class="text-sm text-slate-400">Role Direction</p>
+            <p class="mt-1 font-medium text-white">Junior Full-Stack Developer</p>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
+            <p class="text-sm text-slate-400">Growth Areas</p>
+            <p class="mt-1 font-medium text-white">Cloud · DevOps · AI-enhanced software</p>
+          </div>
+
+          <div class="rounded-2xl border border-white/10 bg-slate-950/50 p-4">
+            <p class="text-sm text-slate-400">Based In</p>
+            <p class="mt-1 font-medium text-white">{profile.location}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Container>
+</section>

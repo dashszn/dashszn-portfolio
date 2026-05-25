@@ -1,0 +1,40 @@
+---
+import Container from '../common/Container.astro';
+import SectionHeader from '../common/SectionHeader.astro';
+import Card from '../ui/Card.astro';
+import { direction } from '../../data/direction';
+---
+
+<section id="direction" class="py-20">
+  <Container>
+    <SectionHeader
+      eyebrow="Direction"
+      title={direction.title}
+      description="This section explains where I am currently heading professionally, without pretending that the journey is already complete."
+    />
+
+    <div class="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+      <Card>
+        <p class="leading-8 text-slate-300">{direction.summary}</p>
+        <p class="mt-6 leading-8 text-slate-300">{direction.longTerm}</p>
+      </Card>
+
+      <Card>
+        <h3 class="text-lg font-semibold text-white">Career Growth Path</h3>
+
+        <ol class="mt-6 space-y-4">
+          {
+            direction.path.map((step, index) => (
+              <li class="flex gap-4">
+                <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sky-400 text-sm font-semibold text-slate-950">
+                  {index + 1}
+                </span>
+                <span class="pt-1 text-slate-300">{step}</span>
+              </li>
+            ))
+          }
+        </ol>
+      </Card>
+    </div>
+  </Container>
+</section>

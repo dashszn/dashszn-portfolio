@@ -1,0 +1,46 @@
+export const skillGroups = [
+  {
+    title: 'Software Development',
+    description: 'Programming foundations, problem-solving, and engineering logic.',
+    skills: ['C++', 'Java', 'Python', 'JavaScript', 'TypeScript', 'Object-Oriented Programming', 'Linux'],
+  },
+  {
+    title: 'Web & App Development',
+    description: 'Building interfaces, APIs, databases, and mobile application foundations.',
+    skills: ['HTML', 'CSS', 'Vue.js', 'Node.js', 'Express.js', 'MySQL', 'Firebase', 'Flutter', 'Dart'],
+  },
+  {
+    title: 'AI & Research Foundations',
+    description: 'Academic exposure to computer vision, CNN models, and research evaluation.',
+    skills: [
+      'Computer Vision',
+      'CNN Image Classification',
+      'Transfer Learning',
+      'Model Evaluation',
+      'Research Writing',
+      'Statistical Analysis',
+    ],
+  },
+  {
+    title: 'Creative & Media',
+    description: 'Creative production skills that support design, storytelling, and presentation.',
+    skills: ['Photography', 'Video Editing', 'Photo Editing', 'Photoshop', 'Canva', 'Visual Storytelling'],
+  },
+  {
+    title: 'Professional & Business',
+    description: 'People, leadership, business, and execution skills.',
+    skills: [
+      'Communication',
+      'Teamwork',
+      'Problem-Solving',
+      'Critical Thinking',
+      'Adaptability',
+      'Time Management',
+      'Leadership',
+      'Project Management',
+      'Entrepreneurship',
+      'Business & Marketing',
+      'Emotional Intelligence',
+    ],
+  },
+];

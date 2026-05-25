@@ -1,0 +1,18 @@
+---
+import Container from '../common/Container.astro';
+import SectionHeader from '../common/SectionHeader.astro';
+import Timeline from '../ui/Timeline.astro';
+import { education } from '../../data/education';
+---
+
+<section id="education" class="py-20">
+  <Container>
+    <SectionHeader
+      eyebrow="Education"
+      title="My academic journey."
+      description="My education path started from information technology and grew into software engineering, full-stack development foundations, and AI/computer vision research exposure."
+    />
+
+    <Timeline items={education} />
+  </Container>
+</section>

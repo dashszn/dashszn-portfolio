@@ -1,0 +1,34 @@
+---
+import Container from '../common/Container.astro';
+import SectionHeader from '../common/SectionHeader.astro';
+import Button from '../ui/Button.astro';
+import Card from '../ui/Card.astro';
+import { profile } from '../../data/profile';
+---
+
+<section id="contact" class="py-20">
+  <Container>
+    <SectionHeader
+      eyebrow="Contact"
+      title="Let’s connect professionally."
+      description="For now, the best way to reach me is through professional online channels. I keep private contact details controlled and share them only when appropriate."
+    />
+
+    <Card class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div>
+        <h3 class="text-2xl font-semibold text-white">Open to junior full-stack opportunities.</h3>
+
+        <p class="mt-4 leading-8 text-slate-300">
+          I am currently focused on building a stronger portfolio and improving my full-stack
+          development foundation. I am open to suitable junior developer opportunities,
+          collaborations, and professional conversations.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3 sm:flex-row lg:flex-col">
+        <Button href={`mailto:${profile.email}`}>Email Me</Button>
+        <Button href={profile.github} variant="secondary">Visit GitHub</Button>
+      </div>
+    </Card>
+  </Container>
+</section>
