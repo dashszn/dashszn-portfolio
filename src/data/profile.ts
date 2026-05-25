@@ -3,7 +3,8 @@ export const profile = {
   fullName: 'Danish Syazani bin Mohd Zakir',
   nickname: 'Dash',
   location: 'Cyberjaya, Selangor, Malaysia',
-  headline: 'Software Engineering Graduate · Full-Stack Developer in Progress · Creative Technologist',
+  headline:
+    'Software Engineering Graduate · Full-Stack Developer in Progress · Creative Technologist',
   tagline:
     'Building meaningful digital systems with full-stack development, AI curiosity, and creative technology.',
   summary:

@@ -30,6 +30,7 @@
 A private admin dashboard for Danish to manage portfolio content.
 
 Potential features:
+
 - Login
 - Project manager
 - Certificate manager

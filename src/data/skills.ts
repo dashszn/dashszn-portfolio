@@ -2,12 +2,30 @@ export const skillGroups = [
   {
     title: 'Software Development',
     description: 'Programming foundations, problem-solving, and engineering logic.',
-    skills: ['C++', 'Java', 'Python', 'JavaScript', 'TypeScript', 'Object-Oriented Programming', 'Linux'],
+    skills: [
+      'C++',
+      'Java',
+      'Python',
+      'JavaScript',
+      'TypeScript',
+      'Object-Oriented Programming',
+      'Linux',
+    ],
   },
   {
     title: 'Web & App Development',
     description: 'Building interfaces, APIs, databases, and mobile application foundations.',
-    skills: ['HTML', 'CSS', 'Vue.js', 'Node.js', 'Express.js', 'MySQL', 'Firebase', 'Flutter', 'Dart'],
+    skills: [
+      'HTML',
+      'CSS',
+      'Vue.js',
+      'Node.js',
+      'Express.js',
+      'MySQL',
+      'Firebase',
+      'Flutter',
+      'Dart',
+    ],
   },
   {
     title: 'AI & Research Foundations',
@@ -24,7 +42,14 @@ export const skillGroups = [
   {
     title: 'Creative & Media',
     description: 'Creative production skills that support design, storytelling, and presentation.',
-    skills: ['Photography', 'Video Editing', 'Photo Editing', 'Photoshop', 'Canva', 'Visual Storytelling'],
+    skills: [
+      'Photography',
+      'Video Editing',
+      'Photo Editing',
+      'Photoshop',
+      'Canva',
+      'Visual Storytelling',
+    ],
   },
   {
     title: 'Professional & Business',

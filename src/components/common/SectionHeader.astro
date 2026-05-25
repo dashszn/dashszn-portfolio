@@ -11,9 +11,7 @@ const { eyebrow, title, description } = Astro.props;
 <div class="mb-10 max-w-3xl">
   {
     eyebrow && (
-      <p class="mb-3 text-sm font-medium uppercase tracking-[0.3em] text-sky-300/80">
-        {eyebrow}
-      </p>
+      <p class="mb-3 text-sm font-medium tracking-[0.3em] text-sky-300/80 uppercase">{eyebrow}</p>
     )
   }
 
@@ -21,11 +19,5 @@ const { eyebrow, title, description } = Astro.props;
     {title}
   </h2>
 
-  {
-    description && (
-      <p class="mt-4 text-base leading-8 text-slate-300 sm:text-lg">
-        {description}
-      </p>
-    )
-  }
+  {description && <p class="mt-4 text-base leading-8 text-slate-300 sm:text-lg">{description}</p>}
 </div>

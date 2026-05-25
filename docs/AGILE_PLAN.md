@@ -17,6 +17,7 @@ Use a lightweight Agile/Scrum-inspired workflow suitable for a solo developer.
 Goal: Finalize project planning before coding.
 
 Deliverables:
+
 - README.md
 - PROJECT_BRIEF.md
 - CODEX_HANDOFF.md

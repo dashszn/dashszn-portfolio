@@ -7,11 +7,7 @@ import { lab } from '../../data/lab';
 
 <section id="projects" class="py-20">
   <Container>
-    <SectionHeader
-      eyebrow="Projects"
-      title={lab.title}
-      description={lab.description}
-    />
+    <SectionHeader eyebrow="Projects" title={lab.title} description={lab.description} />
 
     <div class="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
       <Card>
@@ -21,7 +17,7 @@ import { lab } from '../../data/lab';
           {
             lab.currentFocus.map((item) => (
               <li class="flex gap-3 leading-7 text-slate-300">
-                <span class="mt-2 h-2 w-2 shrink-0 rounded-full bg-sky-300"></span>
+                <span class="mt-2 h-2 w-2 shrink-0 rounded-full bg-sky-300" />
                 <span>{item}</span>
               </li>
             ))
@@ -33,9 +29,11 @@ import { lab } from '../../data/lab';
         <h3 class="text-lg font-semibold text-white">Research Background</h3>
         <p class="mt-4 leading-8 text-slate-300">{lab.researchNote}</p>
 
-        <p class="mt-6 rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm leading-7 text-slate-400">
-          This section is intentionally honest for v1: only selected work that reflects my
-          current standard will be showcased in detail later.
+        <p
+          class="mt-6 rounded-2xl border border-white/10 bg-slate-950/50 p-4 text-sm leading-7 text-slate-400"
+        >
+          This section is intentionally honest for v1: only selected work that reflects my current
+          standard will be showcased in detail later.
         </p>
       </Card>
     </div>
