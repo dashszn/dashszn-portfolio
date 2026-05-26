@@ -141,11 +141,11 @@ public/assets/images/profile/danish-workspace.webp
 
 ### Recommended Use
 
-| Final file | Purpose | Required? |
-|---|---|---|
-| `danish-portrait.webp` | Main hero portrait | Yes, when final image is selected |
-| `danish-casual.webp` | Optional About image | Optional |
-| `danish-workspace.webp` | Optional workspace/creative image | Optional |
+| Final file              | Purpose                           | Required?                         |
+| ----------------------- | --------------------------------- | --------------------------------- |
+| `danish-portrait.webp`  | Main hero portrait                | Yes, when final image is selected |
+| `danish-casual.webp`    | Optional About image              | Optional                          |
+| `danish-workspace.webp` | Optional workspace/creative image | Optional                          |
 
 ### Recommended Size
 
@@ -173,13 +173,13 @@ public/assets/images/education/smk-bukit-jelutong.webp
 
 ### Recommended Use
 
-| Final file | Purpose |
-|---|---|
-| `danish-utm-graduation.webp` | UTM/Bachelor education visual |
-| `danish-msu-graduation.webp` | MSU/Diploma education visual |
-| `utm-mjiit-campus.webp` | UTM/MJIIT campus visual if available |
-| `msu-campus.webp` | MSU campus visual if available |
-| `smk-bukit-jelutong.webp` | High school visual if available |
+| Final file                   | Purpose                              |
+| ---------------------------- | ------------------------------------ |
+| `danish-utm-graduation.webp` | UTM/Bachelor education visual        |
+| `danish-msu-graduation.webp` | MSU/Diploma education visual         |
+| `utm-mjiit-campus.webp`      | UTM/MJIIT campus visual if available |
+| `msu-campus.webp`            | MSU campus visual if available       |
+| `smk-bukit-jelutong.webp`    | High school visual if available      |
 
 Only use the strongest and cleanest images.
 
@@ -207,10 +207,10 @@ public/assets/images/experience/elmina-tech-social-media.webp
 
 ### Recommended Use
 
-| Final file | Purpose |
-|---|---|
-| `elmina-tech-workplace.webp` | Main work experience image |
-| `elmina-tech-shop.webp` | Optional shop-specific image |
+| Final file                      | Purpose                           |
+| ------------------------------- | --------------------------------- |
+| `elmina-tech-workplace.webp`    | Main work experience image        |
+| `elmina-tech-shop.webp`         | Optional shop-specific image      |
 | `elmina-tech-social-media.webp` | Optional social media work visual |
 
 For v1, use only one if it looks good.
@@ -362,13 +362,13 @@ Use icons, not photos.
 
 Suggested icon meanings:
 
-| Skill group | Icon meaning |
-|---|---|
-| Software Development | Code |
-| Web & App Development | Browser or app window |
-| AI & Research Foundations | Brain/circuit |
-| Creative & Media | Camera |
-| Professional & Business | Users/briefcase |
+| Skill group               | Icon meaning          |
+| ------------------------- | --------------------- |
+| Software Development      | Code                  |
+| Web & App Development     | Browser or app window |
+| AI & Research Foundations | Brain/circuit         |
+| Creative & Media          | Camera                |
+| Professional & Business   | Users/briefcase       |
 
 Codex should use lightweight inline SVG icons first.
 
@@ -502,14 +502,14 @@ cwebp assets-raw/projects/project-original.png \
 
 ## Image Optimization Quality Guide
 
-| Image type | Width | Height | Quality |
-|---|---:|---:|---:|
-| Hero portrait | 1000 | 1250 | 84 |
-| About/profile secondary | 1000 | 1000 or 1250 | 82 |
-| Education image | 1200 | 800 | 80 |
-| Experience image | 1200 | 800 | 80 |
-| Project thumbnail | 1280 | 720 | 82 |
-| Background image | 1920 | 1080 | 70–78 |
+| Image type              | Width |       Height | Quality |
+| ----------------------- | ----: | -----------: | ------: |
+| Hero portrait           |  1000 |         1250 |      84 |
+| About/profile secondary |  1000 | 1000 or 1250 |      82 |
+| Education image         |  1200 |          800 |      80 |
+| Experience image        |  1200 |          800 |      80 |
+| Project thumbnail       |  1280 |          720 |      82 |
+| Background image        |  1920 |         1080 |   70–78 |
 
 ---
 

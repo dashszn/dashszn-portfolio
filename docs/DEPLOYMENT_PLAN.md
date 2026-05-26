@@ -309,4 +309,3 @@ Possible future improvements:
 - Add automated Astro check in GitHub Actions.
 - Add branch protection for `main`.
 - Add release tags for major portfolio versions.
-

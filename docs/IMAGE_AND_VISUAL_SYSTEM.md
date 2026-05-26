@@ -54,13 +54,13 @@ personal storytelling
 
 Use the provided palette as the main visual direction.
 
-| Name | Hex | Use |
-|---|---|---|
-| Mint Cream | `#F2FFF6` | Main bright text, light accents |
-| Tea Green | `#CAFFDE` | Soft highlights, glow, success-like warmth |
-| Sky Aqua | `#25C5E9` | Primary accent, links, active states |
-| Dark Cyan | `#238689` | Secondary accent, borders, muted glow |
-| Ink Black | `#021725` | Main background |
+| Name       | Hex       | Use                                        |
+| ---------- | --------- | ------------------------------------------ |
+| Mint Cream | `#F2FFF6` | Main bright text, light accents            |
+| Tea Green  | `#CAFFDE` | Soft highlights, glow, success-like warmth |
+| Sky Aqua   | `#25C5E9` | Primary accent, links, active states       |
+| Dark Cyan  | `#238689` | Secondary accent, borders, muted glow      |
+| Ink Black  | `#021725` | Main background                            |
 
 ---
 
@@ -109,7 +109,7 @@ Example:
 
 ```css
 body::before {
-  content: "";
+  content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -277,16 +277,16 @@ Use lightweight inline SVG icons first.
 
 Recommended icon meanings:
 
-| Group | Icon |
-|---|---|
-| Software Development | Code |
-| Web & App Development | Browser/window |
-| AI & Research | Brain/circuit |
-| Creative & Media | Camera |
-| Professional & Business | Users/briefcase |
-| Location | Map pin |
-| Email | Mail |
-| GitHub | GitHub mark or simple code icon |
+| Group                   | Icon                            |
+| ----------------------- | ------------------------------- |
+| Software Development    | Code                            |
+| Web & App Development   | Browser/window                  |
+| AI & Research           | Brain/circuit                   |
+| Creative & Media        | Camera                          |
+| Professional & Business | Users/briefcase                 |
+| Location                | Map pin                         |
+| Email                   | Mail                            |
+| GitHub                  | GitHub mark or simple code icon |
 
 Do not add a large icon library unless needed.
 
